@@ -1,0 +1,33 @@
+.orderItem{width: 100%;margin: 5px;}
+
+.orderItem__Container {display: flex;}
+
+.orderItem__pic{width: 100%;height: 100%;}
+
+.orderItem__picContainer{margin-right: 10px; width: 30vw;height: 30vw;}
+
+.orderItem__content{  width: 63vw;/*background: lightblue;*/margin-top:10px;display: inline-block; }
+
+.orderItem__product{font-weight: 700;font-size: 17px;line-height: 30px;}
+
+.orderItem__shop{color: #777;line-height: 30px;text-overflow: ellipsis;white-space: nowrap;}
+
+.orderItem__detail {display: flex; justify-content: space-between;}
+
+.orderItem__price{color: #777;line-height: 30px;}
+
+.orderItem__price::before{content: "\A5"; margin-right: 1px;}
+
+.orderItem__btn{color: white;background: lightgray;width: 80px;height: 22px;border: 0; font-size: 14px;}
+
+.orderItem__btn--red{background-color: #e9203d; cursor: pointer;}
+
+.orderItem__btn--grey{background-color: #999; cursor: pointer;}
+
+.orderItem__commentContainer {margin-top: 5px;}
+
+.orderItem__comment {width: 95%;}
+
+.orderItem__start--light{color:#e9203d; cursor: pointer;}
+
+.orderItem__start--nolight {color: #999; cursor: pointer;}
